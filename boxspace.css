@@ -1,0 +1,12 @@
+.container{
+    background-color: aqua;
+    width: 1000px;
+    height: 200px;
+}
+div{
+    background-color: azure;
+    display: flex;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}

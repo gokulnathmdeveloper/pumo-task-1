@@ -1,0 +1,18 @@
+
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+.right img{
+    float: right;
+}
+.left img{
+    float: left;
+}
+.none img{
+    float: none;
+    padding-top:100px ;
+}
+
+

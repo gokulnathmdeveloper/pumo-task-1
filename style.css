@@ -1,0 +1,27 @@
+.container{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+.one{
+    background-color:red;
+    width: 200px;
+    height: 80px;
+
+}
+.two{
+    background-color:orange;
+    width: 100px;
+    height: 120px;
+
+}
+.three{
+    background-color:blue;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 108px;
+    top: 88px;
+
+}
+

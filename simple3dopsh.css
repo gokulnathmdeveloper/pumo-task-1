@@ -1,0 +1,24 @@
+.d{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(200deg);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d:hover{
+    transform: rotateY(180deg);
+    width:200px;
+    height: 200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+img:hover{
+    opacity: 0.5;
+    width: 50em;
+    height: 50em;
+    transition-duration: 2s;
+}

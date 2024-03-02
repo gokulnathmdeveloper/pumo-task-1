@@ -1,0 +1,10 @@
+div{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-color: blue red gray pink;
+    position: relative;
+    left: 600px;
+    top: 100px;
+}

@@ -1,0 +1,11 @@
+span{
+    border: 2px solid;
+    width: 50px;
+    float: left;
+    margin-left: 2px;
+    background-color: bisque;
+    color: rgba(42, 38, 38, 0.534);
+    border: none;
+    box-shadow: 50px;
+    text-align: center;
+}

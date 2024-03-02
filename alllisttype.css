@@ -1,0 +1,63 @@
+#square{
+    list-style-type: square;
+}
+#cricle{
+    list-style:circle;
+}
+#upper{
+    list-style-type: upper-alpha;
+}
+#upperone{
+    list-style-type: upper-latin;
+}
+#uppertwo{
+    list-style-type: upper-roman;
+}
+#lower{
+    list-style-type: lower-alpha;
+}
+#lowerone{
+    list-style-type: lower-roman;
+}
+#gif{
+    list-style-type: kannada;
+}
+#thumb{
+    list-style-type: "\1F44D";
+}
+#georgian{
+    list-style-type: georgian;
+}
+#trad{
+    list-style-type: trad-chinese-informal;
+}
+#decimal{
+    list-style-type: decimal-leading-zero;
+}
+#ipan{
+    list-style-type:"-    " ;
+}
+#custom{
+    list-style-type: lower-greek;
+}
+#none{
+    list-style-type: none;
+}
+#image{
+    
+    background-color: antiquewhite;
+    list-style-position: inside;
+}
+#inherit{
+    list-style-position: outside;
+    background-color: antiquewhite;
+}
+#unset{
+    list-style-type: "\1F604";
+}
+#revert{
+     list-style-image: url('download\ 2.jpg'); 
+}
+ul {
+        list-style-image: url('sqpurple.gif');
+}

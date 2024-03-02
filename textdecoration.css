@@ -1,0 +1,35 @@
+.one{
+    text-decoration-line: underline overline line-through;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+.Lorem{
+    text-decoration: underline 20% blue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}
+.three{
+    text-decoration: line-through dotted 20% blue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+.four{
+    text-decoration: overline  blue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}
+.five{
+    text-decoration: underline wavy 50% blue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}

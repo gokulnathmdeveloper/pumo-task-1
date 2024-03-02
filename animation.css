@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: gokul;
+    animation-duration: 6s;
+}
+div:hover{
+    background-color: pink;
+    cursor: pointer;
+
+}
+
+@keyframes gokul{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: yellow;
+    }
+   
+    
+}
