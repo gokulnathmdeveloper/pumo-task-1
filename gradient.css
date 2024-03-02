@@ -1,0 +1,42 @@
+div{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+h1{
+    font-size: 3em;
+    font-weight: 900;
+    font-family: monospace;
+}
+.linear{
+    background-image: linear-gradient(red,yellow,green);
+    
+}
+.radial{
+    background-image: radial-gradient(closest-side at 60% 40%,red,yellow,green);
+    
+}
+.conic{
+    background-image:conic-gradient(red,yellow,green);
+    
+}
+.repeatlinear{
+    background-image: repeating-linear-gradient( to left,red,yellow 10%,green 20%);
+}
+.repeatradial{
+    background-image: repeating-radial-gradient(red 5%,yellow 10%,green );
+}
+.repeatconic{
+    background-image: conic-gradient( red 45deg, yellow 75deg, green 85deg);
+}
+.transpancy{
+    background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
+}
+.cricle{
+    background-image: radial-gradient(circle,red,yellow,green);
+}
+.fromposition{
+    background-image: conic-gradient(at 40% 80%,red,yellow,green);
+}

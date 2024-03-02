@@ -1,0 +1,41 @@
+
+
+
+.task div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+    background-color: rgb(236, 172, 172);
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler,
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: "h h h " " sb1 m sb2" "f f f";
+    text-align: center;
+}
+
+.header {
+    grid-area: h;
+
+}
+
+.sliderbar1 {
+    grid-area: sb1;
+}
+
+.sliderbar2 {
+    grid-area: sb2;
+}
+
+.mainbar {
+    grid-area: m;
+}
+.footer{
+    grid-area: f;
+}

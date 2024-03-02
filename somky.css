@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.somky{
+    display: flex;
+    transform: translate(200px,200px);
+    
+}
+.somky,video{
+    position: absolute;
+    left: 50px;
+    opacity: 0.4;
+}
+
+.name{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    
+    letter-spacing: 20px;
+    font-size: xx-large;
+    font-family: monospace;  
+    color: white;
+    animation-name:somke;
+    animation-duration: 2s;
+    animation-iteration-count: 5; 
+    visibility: hidden;
+    animation-direction: alternate;
+    
+
+}
+@keyframes somke {
+    0%{
+        transform: rotatey(360deg);
+        opacity: 0;
+        visibility: visible;
+        
+
+    }
+    100%{
+        transform: rotatey(0deg);
+        opacity: 1;
+    }
+    
+}
+.name:nth-child(1) 
+{
+    animation-delay: 1s;
+}
+.name:nth-child(2) 
+{
+    animation-delay: 2s;
+}
+.name:nth-child(3) 
+{
+    animation-delay: 3s;
+}
+.name:nth-child(4) 
+{
+    animation-delay: 4s;
+}
+.name:nth-child(5) 
+{
+    animation-delay: 5s;
+}
+.name:nth-child(6) 
+{
+    animation-delay: 6s;
+}
